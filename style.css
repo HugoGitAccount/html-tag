@@ -1,0 +1,108 @@
+html {
+    height: 100%;
+}
+
+body {
+    background-color: #2F3035;
+    background-image: url(images/background-Church-Wimbledon.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    width: 1024px;
+}
+
+header {
+    height: 118px;
+    text-align: center;
+}
+
+nav {
+    background-color: rgba(0, 0, 0, 0.338);
+    text-align: center;
+    padding-top: 14px;
+    padding-bottom: 14px;
+}
+
+main {
+    height: 400px;
+    text-align: center;
+    padding-top: 40px;
+    padding-left: 240px;
+    padding-right: 240px;
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.728);
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-size:30px;
+}
+
+h1 {
+    font-size: 64px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+    font-size:18px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    /* text-decoration: none; */
+}
+
+nav a {
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 16px;
+} 
+
+footer p {
+    font-size: 10px;
+    text-align: center;
+    color: rgb(189, 188, 188);
+}
+
+.maps {
+    padding-bottom: 100px;
+}
+
+#background{ /*Digital Watermarking (security image) Technique*/
+    position: absolute;
+    z-index: 0;
+    /*background:;*/
+    display: block;
+    min-height: 30;
+    min-width: 30;
+    color: yellow;
+    /*float: bottom;*/
+    margin: 30px;
+}
+
+#content{ /*Digital Watermarking Technique*/
+    /*position: absolute;*/
+    z-index: 1;
+}
+
+#background-text{ /*Digital Watermarking Technique*/
+    color: rgba(14, 13, 13, 0.185);
+    font-size: 23px;
+    transform: rotate(300deg);
+    /*-webkit-transform: rotate(300deg);*/
+}
+
+/*source {
+    width: 50%;
+    height: auto;
+  }*/
